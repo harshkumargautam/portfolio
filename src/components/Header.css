@@ -1,0 +1,30 @@
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.sticky-header.scrolled {
+  padding: 0.5rem;
+}
+
+.sticky-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  transition: font-size 0.3s ease;
+}
+
+.sticky-header.scrolled h1 {
+  font-size: 1.25rem;
+}
+
+.sticky-header .lead {
+  margin: 0.3rem 0 0;
+  font-size: 1rem;
+  transition: opacity 0.3s ease;
+}
